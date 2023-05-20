@@ -116,7 +116,7 @@ legend {
 #email,
 #number, textarea {
   width: 100%;
-  border-radius: 0px
+  border-radius: 0px;
   caret-color: #99f;
 }
 
@@ -175,7 +175,7 @@ input[type="submit"] {
   border: 5px outset #66f;
 }
 
-.textarea {
+.feedback {
   margin:1rem;
 padding: 2rem;
 }
