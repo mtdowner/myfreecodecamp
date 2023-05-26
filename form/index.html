@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Form</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="script.js"></script>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/form.html" aria-current="page">Form</a></li>
+      <li><a href="/clipboard.html">Copy to Clipboard</a></li>
+      <li><a href="/tribute/index.html">Popsicle propaganda</a></li>
+      <li><a href="/tribute/poem.html">Are you there, pops?</a></li>
+      <li><a href="/survey/index.html">ASecretSurvey</a></li>
+      <li><a href="/balance-sheet/index.html">I balance sheet</a></li>
+      <li><a href="/technical-documentation/index.html">Technically documentation</a></li>
+      </ul>
+    </nav>
+    <main>
+      <h1>Form</h1>
+    </main>
+    
+    <form action="/action_page.php">
+      <label for="fname">First Name</label>
+      <input
+        type="text"
+        id="fname"
+        name="firstname"
+        placeholder="Your name.."
+      />
+
+      <label for="lname">Last Name</label>
+      <input
+        type="text"
+        id="lname"
+        name="lastname"
+        placeholder="Your last name.."
+      />
+
+      <label for="country">Country</label>
+      <select id="country" name="country">
+        <option value="australia">Australia</option>
+        <option value="canada">Canada</option>
+        <option value="usa">USA</option>
+      </select>
+
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
