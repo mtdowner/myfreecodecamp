@@ -4,11 +4,13 @@
 
 body {
   font-family: monospace;
-}
-
-body {
   color: #8255ff;
   margin: 0;
+  padding: 0;
+}
+
+#layout {
+margin-left:25%;padding:1px 16px;height:1000px;
 }
 
 .left-nav {
@@ -16,7 +18,7 @@ body {
   margin: 0;
   padding: 0;
   width: 25%;
-  background-color: #f1f1f1;
+  background-image: linear-gradient(#8000ff, #99f, #acf);
   position: fixed;
   height: 100%;
   overflow: auto;
@@ -24,7 +26,7 @@ body {
 
 li a {
   display: block;
-  color: #8255ff;
+  color: #0ff;
   text-decoration: none;
 }
 
