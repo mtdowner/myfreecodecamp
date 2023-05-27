@@ -1,1 +1,39 @@
+* {
+  box-sizing: border-box;
+}
 
+body {
+  font-family: monospace;
+}
+
+body {
+  color: #8255ff;
+  margin: 0;
+}
+
+.left-nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 25%;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+li a {
+  display: block;
+  color: #8255ff;
+  text-decoration: none;
+}
+
+li a.active, button {
+  background-color: #8255ff;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: #8255ff;
+  color: white;
+}
