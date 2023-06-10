@@ -1,3 +1,3 @@
-# freecodecamp-popsicles
+# freecodecamp
 
 [Edit on StackBlitz ⚡️](https://stackblitz.com/edit/web-platform-vi9mpv)
