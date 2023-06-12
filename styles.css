@@ -10,9 +10,9 @@ input[type=text], select {
 }
 
 /* Style the submit button */
-input[type=submit] {
+input[type=submit], a {
   width: 100%;
-  background-color: #04AA6D;
+  background-color: #A0F;
   color: white;
   padding: 14px 20px;
   margin: 8px 0;
@@ -25,11 +25,24 @@ input[type=submit] {
 input[type=submit]:hover {
   background-color: #45a049;
 }
-
 body {
-  background: radial-gradient(black,#666FFF, black);
-  background-size: 400%;
+  font-family: Menlo, monospace;
+  background: linear-gradient(#8255FF,#666FFF, #A0F);
+  background-repeat: no-repeat;
   padding: 5px;
+  min-height: 100vh;
+}
+
+a {
+  border: thin black solid;
+  display: flex;
+  flex-flow: column;
+  padding: 5px;
+  max-width: 300px;
+  margin: auto;
+
+a:hover {
+  background-image: linear-gradient(#8255ff, #9003ff, #a0f, #0ff);
 }
 
 .half {
@@ -54,23 +67,17 @@ hr {
   border: 5px solid slateblue;
 }
 
-figure {
-  border: thin black solid;
-  display: flex;
-  flex-flow: column;
-  padding: 5px;
-  max-width: 300px;
-  margin: auto;
+
 }
 
 img {
   max-width: 100%;
 }
 
-figcaption {
+figcaption, a {
   background-color: black;
   color: blueviolet;
-  font: smaller monospace;
+  font: 1rem;
   padding: 2px;
 }
 
