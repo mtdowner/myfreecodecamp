@@ -17,7 +17,17 @@ html {
 
 body {
   font-family: Menlo, monospace;
-  color: #9003ff;
+}
+
+h1 {
+  max-width: 37.25rem;
+  margin: 0 auto;
+  padding: 1.5rem 1.25rem;
+  color: transparent;
+    background-image: linear-gradient(#9003ff, #8255ff, #0ff);
+    background-clip: text;
+    -webkit-background-clip: text;
+
 }
 
 h1 .flex {
@@ -71,7 +81,7 @@ table {
 }
 
 table caption {
-  color: #356eaf;
+  color: #a0f;
   font-size: 1.3em;
   font-weight: normal;
   position: absolute;
@@ -109,7 +119,7 @@ tr.total td:nth-of-type(3) {
 }
 
 tr.total:hover {
-  background-color: #99c9ff;
+  background-image: linear-gradient(#9003ff, #8255ff, #0ff);
 }
 
 td.current {
@@ -117,7 +127,7 @@ td.current {
 }
 
 tr.data {
-  background-image: linear-gradient(to bottom, #dfdfe2 1.845rem, white 1.845rem);
+  background-image: linear-gradient(to bottom, #8255ff 1.845rem, #ccf 1.845rem);
 }
 
 tr.data th {
@@ -138,4 +148,8 @@ tr.data td {
   vertical-align: top;
   padding: 0.3rem 0.25rem 0;
   text-align: right;
+}
+
+tr.data td:last-of-type {
+  padding-right:0.5rem;
 }
