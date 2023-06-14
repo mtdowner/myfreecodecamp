@@ -1,105 +1,173 @@
 <!DOCTYPE html>
-<html lang="en" >
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="theme-color" content="#66f">
-  <title>ASecretSurvey</title>
-  <link rel="stylesheet" href="./style.css">
-  <link rel="stylesheet" href="https://use.typekit.net/fcs8kra.css">
-</head>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#66f" />
+    <title>ASecretSurvey</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="https://use.typekit.net/fcs8kra.css" />
+  </head>
 
-<body>
-  <div class="container">
-    <header class="header">
-      <h1 id="title">ASecretSurvey
-        <br>
-        <span class="title">(definitely not a scam)</span>
-      </h1>
-    </header>
-    <p id="welcome">Wow, Congrats! You've been chosen!</p>
-    <p id="description">You've been chosen! What for, you ask? Who cares? You're a winner, and that's all that matters. Let's get on with it.</p>
+  <body>
+    <div class="container">
+      <header class="header">
+        <h1 id="title">
+          ASecretSurvey
+          <br />
+          <span class="title">(definitely not a scam)</span>
+        </h1>
+      </header>
+      <p id="welcome">Wow, Congrats! You've been chosen!</p>
+      <p id="description">
+        You've been chosen! What for, you ask? Who cares? You're a winner, and
+        that's all that matters. Let's get on with it.
+      </p>
 
-    <details>
-      <summary>Rules:</summary>
-      <p>All you need to do is take one of our world-famous surveys to get your prize.</p>
-      <p>Keep this a secret! We'll know if you don't.</p>
-    </details>
+      <details>
+        <summary>Rules:</summary>
+        <p>
+          All you need to do is take one of our world-famous surveys to get your
+          prize.
+        </p>
+        <p>Keep this a secret! We'll know if you don't.</p>
+      </details>
 
-    <form id="survey-form" name="survey-form" method="POST" data-netlify="true">
-      <fieldset>
-        <legend>Giving up your identity</legend>
-        <div class="form-group">
-          <label for="name" id="name-label" class="question">Name</label>
-          <input id="name" name="name" type="text" placeholder="real name, preferrably" required />
+      <form
+        id="survey-form"
+        name="survey-form"
+        method="POST"
+        data-netlify="true"
+      >
+        <fieldset>
+          <legend>Giving up your identity</legend>
+          <div class="form-group">
+            <label for="name" id="name-label" class="question">Name</label>
+            <input
+              id="name"
+              name="name"
+              type="text"
+              placeholder="real name, preferrably"
+              required
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="email" id="email-label" class="question">Email</label>
+            <input
+              id="email"
+              name="email"
+              type="email"
+              placeholder="ilovesurveys@survey.com"
+              required
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="number" id="number-label" class="question">Phone</label>
+            <input
+              id="number"
+              name="number"
+              type="number"
+              min="0"
+              max="9"
+              placeholder="555-867-5309"
+            />
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend>Intense pysch evaluation</legend>
+          <div class="form-group">
+            <p class="question">What describes you most?</p>
+            <select id="dropdown" name="qualify">
+              <option disabled selected value>Select one</option>
+              <option value="never">I've never taken a survey before.</option>
+              <option value="daily">I take surveys daily.</option>
+              <option value="certified">
+                I'm certified in survey-taking, tyvm.
+              </option>
+              <option value="idk">I don't know.</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <p class="question">Are you good at keeping secrets?</p>
+
+            <input
+              id="duh"
+              type="radio"
+              name="radio"
+              value="duh"
+              class="input-radio"
+            />
+            <label>Duh! Let me tell you about this one time my friend...</label>
+            <br />
+            <br />
+            <input
+              id="no"
+              type="radio"
+              name="radio"
+              value="no"
+              class="input-radio"
+            />
+            <label>No way!</label>
+            <br />
+            <p class="question">Select your favorite color.</p>
+            <input type="color" name="radio" />
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend>Morality</legend>
+          <div class="form-group">
+            <p class="question">
+              What sort of compensation do you think is fair for taking this
+              survey?
+            </p>
+            <input
+              name="compensation"
+              type="checkbox"
+              value="chocolate"
+              class="input-checkbox"
+            />
+            <label>Chocolate imported by hand from Switzerland.</label>
+            <br />
+            <input
+              name="compensation"
+              type="checkbox"
+              value="million-dollars"
+              class="input-checkbox"
+            />
+            <label>One million dollars.</label>
+            <br />
+            <input
+              name="compensation"
+              type="checkbox"
+              value="worldpeace"
+              class="input-checkbox"
+            />
+            <label
+              >I don't want anything until there's world peace because I'm a
+              good person.</label
+            >
+          </div>
+        </fieldset>
+        <br />
+        <hr />
+        <br />
+
+        <div class="feedback">
+          <p class="feedback">
+            You've made it through this horrible survey, pat yourself on the
+            back! Enter any comments you have and we'll end it.
+          </p>
+          <br />
+          <textarea id="textarea" placeholder="Any last words?"></textarea>
+          <br />
+          <input type="submit" class="button" value="Submit" />
         </div>
-
-        <div class="form-group">
-          <label for="email" id="email-label" class="question">Email</label>
-          <input id="email" name="email" type="email" placeholder="ilovesurveys@survey.com" required />
-        </div>
-
-        <div class="form-group">
-          <label for="number" id="number-label" class="question">Phone</label>
-          <input id="number" name="number" type="number" min="0" max="9" placeholder="555-867-5309">
-        </div>
-      </fieldset>
-
-      <fieldset>
-        <legend>Intense pysch evaluation</legend>
-        <div class="form-group">
-          <p class="question">What describes you most?</p>
-          <select id="dropdown" name="qualify">
-            <option disabled selected value>Select one</option>
-            <option value="never">I've never taken a survey before.</option>
-            <option value="daily">I take surveys daily.</option>
-            <option value="certified">I'm certified in survey-taking, tyvm.</option>
-            <option value="idk">I don't know.</option>
-          </select>
-        </div>
-
-        <div class="form-group">
-          <p class="question">Are you good at keeping secrets?</p>
-
-          <input id="duh" type="radio" name="radio" value="duh" class="input-radio">
-          <label>Duh! Let me tell you about this one time my friend...</label>
-          <br>
-          <br>
-          <input id="no" type="radio" name="radio" value="no" class="input-radio">
-          <label>No way!</label>
-          <br>
-          <p class="question">Select your favorite color.</p>
-          <input type="color" name="radio">
-        </div>
-      </fieldset>
-
-      <fieldset>
-        <legend>Morality</legend>
-        <div class="form-group">
-          <p class="question">What sort of compensation do you think is fair for taking this survey?</p>
-          <input name="compensation" type="checkbox" value="chocolate" class="input-checkbox">
-          <label>Chocolate imported by hand from Switzerland.</label>
-          <br>
-          <input name="compensation" type="checkbox" value="million-dollars" class="input-checkbox">
-          <label>One million dollars.</label>
-          <br>
-          <input name="compensation" type="checkbox" value="worldpeace" class="input-checkbox">
-          <label>I don't want anything until there's world peace because I'm a good person.</label>
-        </div>
-      </fieldset>
-      <br>
-      <hr>
-      <br>
-
-      <div class="feedback">
-        <p class="feedback">You've made it through this horrible survey, pat yourself on the back! Enter any comments you have and we'll end it.</p>
-        <br>
-        <textarea id="textarea" placeholder="Any last words?"></textarea>
-        <br>
-        <input type="submit" class="button" value="Submit">
-      </div>
-
-    </form>
-  </div>
-</body>
+      </form>
+    </div>
+  </body>
 </html>
