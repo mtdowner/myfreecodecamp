@@ -24,10 +24,9 @@ h1 {
   margin: 0 auto;
   padding: 1.5rem 1.25rem;
   color: transparent;
-    background-image: linear-gradient(#9003ff, #8255ff, #0ff);
-    background-clip: text;
+  background-image: linear-gradient(#9003ff, #8255ff, #0ff);
+  background-clip: text;
     -webkit-background-clip: text;
-
 }
 
 h1 .flex {
@@ -119,6 +118,7 @@ tr.total td:nth-of-type(3) {
 }
 
 tr.total:hover {
+  color: #7436dd;
   background-image: linear-gradient(#9003ff, #8255ff, #0ff);
 }
 
