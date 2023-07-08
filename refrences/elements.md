@@ -17,7 +17,7 @@ Element           | Description
 `<button>`| clickable button that can contain text or an image
 `<canvas>`| graphics container where Javascriot can draw
 `<caption>`| caption of a table
-`<cite>`|
+`<cite>`| title of a work
 `<code>`| used to display computer code
 `<col>`| column properties for a table
 `<colgroup>`| one or more columns for table formatting
@@ -96,9 +96,5 @@ Element           | Description
 `<ul>` | unordered bulleted list of list items
 `<var>` | defines its contents as a variable
 `<video>` | video player
-`<wbr>` | 
+`<wbr>` | line-breaking 
 `<!DOCTYPE>` | defines the version of HTML; first line of an HTML document
-
-
-
-![image](https://github.com/mtdowner/freecodecamp/assets/93113515/3dbe1ff8-9ac4-4532-a187-c5822a84bcc7)
