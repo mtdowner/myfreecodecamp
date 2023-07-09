@@ -26,7 +26,7 @@ h1 {
   color: transparent;
   background-image: linear-gradient(#9003ff, #8255ff, #0ff);
   background-clip: text;
-    -webkit-background-clip: text;
+  -webkit-background-clip: text;
 }
 
 h1 .flex {
@@ -46,17 +46,18 @@ h1 .flex span:last-of-type {
 section {
   max-width: 40rem;
   margin: 0 auto;
-  border: 2px solid #99F;
+  border: 6px solid #8255ff;
+  box-shadow: 3px 3px 6px rgba(100, 30, 250, .16), 3px 3px 6px rgba(100, 20, 200, .23);
 }
 
 #years {
+  color: #fff;
   display: flex;
   justify-content: flex-end;
   position: sticky;
   z-index: 999;
   top: 0;
-  background: #8a2be2;
-  color: #fff;
+  background-color: #8255ff;
   padding: 0.5rem calc(1.25rem + 2px) 0.5rem 0;
   margin: 0 -2px;
 }
@@ -80,7 +81,10 @@ table {
 }
 
 table caption {
-  color: #a0f;
+  color: transparent;
+  background-image: linear-gradient(#9003ff, #8255ff, #0ff);
+  background-clip: text;
+  -webkit-background-clip: text;
   font-size: 1.3em;
   font-weight: normal;
   position: absolute;
@@ -95,18 +99,21 @@ tbody td {
 }
 
 tbody th {
+  color: #fff;
   width: calc(100% - 12rem);
 }
 
 tr[class="total"] {
-  border-bottom: 4px double #A0F;
+  border-bottom: .5rem double #A0F;
   font-weight: bold;
+  color: #8a2be2;
 }
 
 tr[class="total"] th {
   text-align: left;
   padding: 0.5rem 0 0.25rem 0.5rem;
-}
+  color: #8a2be2;
+ }
 
 tr.total td {
   text-align: right;
@@ -118,8 +125,8 @@ tr.total td:nth-of-type(3) {
 }
 
 tr.total:hover {
-  color: #fff;
-  background-image: linear-gradient(#9003ff, #8255ff, #0ff);
+   color: #8a2be2;
+   background-image: linear-gradient(#9003ff, #8255ff, #a0f, #0ff);
 }
 
 td.current {
@@ -127,7 +134,8 @@ td.current {
 }
 
 tr.data {
-  background-image: linear-gradient(to bottom, #8255ff 1.845rem, #ccf 1.845rem);
+  color: #fff;
+  background-image: linear-gradient(to bottom, #8255ff 1.845rem, #aaf 1.845rem);
 }
 
 tr.data th {
