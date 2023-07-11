@@ -1,3 +1,126 @@
+:root {
+  --color-blue: #66f;
+  --color-lavender: #99f;
+  --color-black: #000;
+  --green: #0ff;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Nitti-Typewriter-normal", sans-serif;
+}
+
+html {
+  display: block;
+  background: #666aaa;
+  background-image: conic-gradient(#77f, #000);
+}
+
+body {
+  background: #dddeee;
+  border: 1rem solid #66f;
+  max-width: 700px;
+  min-width: 350px;
+  width: 100%;
+  min-height: 100vh;
+  margin: 2rem auto;
+  font-size: 100%;
+}
+
+#title {
+  font-size: 2rem;
+  text-align: center;
+  line-height: 0.7em;
+  font-weight: 550;
+}
+
+.title {
+  font-size: 0.4rem;
+}
+
+#welcome {
+  text-align: center;
+}
+
+h1,
+#description {
+  margin: 1rem;
+  padding: 1rem;
+}
+
+h1,
+#description,
+fieldset,
+legend,
+hr {
+  box-shadow: 5px 5px 5px #66f;
+}
+
+h1,
+.welcome,
+fieldset,
+legend,
+label,
+input,
+#textarea {
+  color: #66f;
+}
+
+h1,
+input,
+select,
+textarea {
+  background-color: #000;
+}
+
+#description {
+  color: #fff;
+  background-image: conic-gradient(#66f, #000);
+}
+
+details {
+  margin: 1rem;
+  color: #66f;
+  padding: 0.4rem;
+}
+
+summary {
+  padding: 0.5rem;
+  cursor: pointer;
+  font-style: underline;
+  background-color: var(--purple);
+  box-shadow: 0.2em 0.2em 0 0 #99f, inset 0.2em 0.2em 0 0 #66f;
+}
+
+hr {
+  border: 1px solid #66f;
+  width: 85%;
+}
+
+fieldset {
+  border: 5px double #99f;
+  padding: 2rem;
+  margin: 1rem 1rem 3rem 1rem;
+}
+
+legend {
+  color: #fff;
+  background: #99f;
+  border: 5px double #66f;
+  padding: 0.5rem;
+}
+
+#name,
+#email,
+#number,
+select,
+textarea {
+  width: 100%;
+  border-radius: 0px;
+  caret-color: #99f;
+}
+
+.question {
   font-family: "Nitti-Typewriter-cameo", sans-serif;
 }
 
