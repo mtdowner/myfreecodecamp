@@ -15,7 +15,7 @@ Element           | Description
 `<body>`| container for the page's content with text, links, images, etc.
 `<br>`| line break
 `<button>`| clickable button that can contain text or an image
-`<canvas>`| graphics container where Javascriot can draw
+`<canvas>`| graphics container where Javascript can draw
 `<caption>`| caption of a table
 `<cite>`| title of a work
 `<code>`| used to display computer code
@@ -39,7 +39,7 @@ Element           | Description
 `<h1>-<h6>`| headers 1-6
 `<head>`|holds metadata elements
 `<header>`|header section on a page or a section of a page
-`<hr>`| horizonal rule representing a thematic change in content
+`<hr>`| horizontal rule representing a thematic change in content
 `<html>`|root container for an HTML document
 `<i>`| italic text
 `<iframe>` | a frame in which another web page can be embedded
@@ -63,7 +63,7 @@ Element           | Description
 `<option>`| adds item to a `<select>` element
 `<output>`| output results of a calculation
 `<p>`| paragraph or body text
-`<picture>`| Adds images with a bit more flexibility than the <img> element
+`<picture>`| Adds images with a bit more flexibility than the `<img>` element
 `<pre>`| preformatted text in fixed-width font -- usually computer code
 `<progress>`| control that displays progress of a task
 `<q>`| short quotation in with quotation marks
