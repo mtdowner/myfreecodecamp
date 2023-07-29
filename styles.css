@@ -28,14 +28,18 @@ input[type=submit]:hover {
 
 body {
   font-family: Menlo, monospace;
-  background: linear-gradient(#8255FF, #000);
-  background-repeat: no-repeat;
-  padding: 5px;
+  background-image: linear-gradient(#8255FF, #000);
   min-height: 100vh;
 }
 
 li {
   list-style-type: none;
+}
+nav {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
 }
 
 a {
