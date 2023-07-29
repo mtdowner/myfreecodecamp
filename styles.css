@@ -28,7 +28,7 @@ input[type=submit]:hover {
 
 body {
   font-family: Menlo, monospace;
-  background: linear-gradient(#8255FF, #000;);
+  background: linear-gradient(#8255FF, #000);
   background-repeat: no-repeat;
   padding: 5px;
   min-height: 100vh;
