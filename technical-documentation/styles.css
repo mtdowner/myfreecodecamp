@@ -3,8 +3,8 @@
 }
 
 body {
-  font-family: monospace;
-  color: #8255ff;
+  font-family: space-mono, mono;
+  color: #7223ce;
   margin: 0;
   padding: 0;
 }
