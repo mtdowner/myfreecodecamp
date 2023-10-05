@@ -1,5 +1,8 @@
 {
-    "cSpell.words": [
-        "offwhite"
-    ]
+    "base9.palette": "ffffff-7d44ff-00d2ff-8127ff-fe00f0-00aeff-eb00ff-007cff-bd00ff",
+    "editor.defaultFormatter": "base9-theme.base9-vscode",
+    "editor.wordWrap": "on",
+    "files.autoSave": "onWindowChange",
+    "workbench.commandPalette.experimental.suggestCommands": true,
+    "workbench.commandPalette.preserveInput": true
 }
