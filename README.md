@@ -2,4 +2,4 @@
 
 [Netlify](https://myfreecodecamp-projects.netlify.app/)
 
-[Pages]([https://mtdowner.github.io/myfreecodecamp/]
+[Pages](https://mtdowner.github.io/myfreecodecamp/)
