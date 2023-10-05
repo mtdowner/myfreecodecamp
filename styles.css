@@ -13,7 +13,7 @@ body {
 li {
   list-style-type: none;
 }
-.container-flex {
+nav {
   display: flex;
   flex-direction: column;
   justify-content: center;
