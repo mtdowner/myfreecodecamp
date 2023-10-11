@@ -4,5 +4,8 @@
     "editor.wordWrap": "on",
     "files.autoSave": "onWindowChange",
     "workbench.commandPalette.experimental.suggestCommands": true,
-    "workbench.commandPalette.preserveInput": true
+    "workbench.commandPalette.preserveInput": true,
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    }
 }
