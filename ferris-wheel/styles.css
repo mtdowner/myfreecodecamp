@@ -1,3 +1,8 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .wheel {
   border: 5px solid black;
   border-radius: 50%;
@@ -11,11 +16,6 @@
   animation-duration: 10s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
-}
-body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 .line {
   background-color: black;
