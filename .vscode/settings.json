@@ -8,7 +8,7 @@
     "[html]": {
         "editor.defaultFormatter": "vscode.html-language-features"
     },
-    "workbench.colorTheme": "Abyss",
+    "workbench.colorTheme": "Base 9",
     "workbench.preferredDarkColorTheme": "Abyss",
     "workbench.view.alwaysShowHeaderActions": true,
     "accessibility.hideAccessibleView": true,
