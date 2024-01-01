@@ -9,7 +9,7 @@
         "editor.defaultFormatter": "vscode.html-language-features"
     },
     "workbench.colorTheme": "Base 9",
-    "workbench.preferredDarkColorTheme": "Abyss",
+    "workbench.preferredDarkColorTheme": "Base 9",
     "workbench.view.alwaysShowHeaderActions": true,
     "accessibility.hideAccessibleView": true,
     "window.density.editorTabHeight": "compact",
@@ -20,6 +20,6 @@
     "workbench.iconTheme": "vs-minimal",
     "workbench.activityBar.location": "side",
     "workbench.sideBar.location": "left",
-    "workbench.preferredHighContrastColorTheme": "Abyss",
-    "editor.tabSize": 2
+    "workbench.preferredHighContrastColorTheme": "Base 9",
+    "editor.tabSize": 1
 }
