@@ -1,14 +1,7 @@
-.container {
-    position: relative;
-  }
-  
-  .wheel {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  border: 5px solid black;
+.wheel {
+  border: 2px solid black;
   border-radius: 50%;
+  margin-left: 50px;
   position: absolute;
   height: 55vw;
   width: 55vw;
@@ -19,15 +12,17 @@
   animation-iteration-count: infinite;
   animation-timing-function: linear;
 }
+
 .line {
   background-color: black;
   width: 50%;
-  height: 3px;
+  height: 2px;
   position: absolute;
   top: 50%;
   left: 50%;
   transform-origin: 0% 0%;
 }
+
 .line:nth-of-type(2) {
   transform: rotate(60deg);
 }
@@ -43,15 +38,17 @@
 .line:nth-of-type(6) {
   transform: rotate(300deg);
 }
+
 .cabin {
-  background-color: red;
-  width: 25%;
+  background-color: #00cbff;
+  width: 20%;
   height: 20%;
   position: absolute;
-  border: 3px solid;
+  border: 2px solid;
   transform-origin: 50% 0%;
   animation: cabins 10s ease-in-out infinite;
 }
+
 .cabin:nth-of-type(1) {
   right: -8.5%;
   top: 50%;
@@ -90,14 +87,20 @@
   0% {
     transform: rotate(0deg);
   }
-  25% {
-    background-color: blue;
+  15% {
+    background-color: #9300ff;
   }
-  50% {
-    background-color: purple;
+  30% {
+    background: #8800ff;
   }
-  75% {
-    background-color: yellow;
+  45% {
+    background: #a0f;
+  }
+  60% {
+    background: #f0f;
+  }
+  85% {
+    background: #00b0ff;
   }
   100% {
     transform: rotate(-360deg);

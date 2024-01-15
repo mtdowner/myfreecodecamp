@@ -22,7 +22,7 @@ Element           | Description
 `<col>`| column properties for a table
 `<colgroup>`| one or more columns for table formatting
 `<data>`| links content to a machine-readable set of related data
-`<datalist>`| list of options for a textfield (<input>) element
+`<datalist>`| list of options for a textfield (`<input>`) element
 `<dd>`| description of a term or name to a `<dl>` element
 `<del>`| deleted text
 `<details>`| a control that can show and hide additional details
