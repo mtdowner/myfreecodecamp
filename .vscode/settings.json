@@ -1,6 +1,6 @@
 {
     "base9.palette": "ffffff-7d44ff-00d2ff-8127ff-fe00f0-00aeff-eb00ff-007cff-bd00ff",
-    "editor.defaultFormatter": "base9-theme.base9-vscode",
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.wordWrap": "on",
     "files.autoSave": "afterDelay",
     "workbench.commandPalette.experimental.suggestCommands": true,
@@ -21,5 +21,11 @@
     "workbench.activityBar.location": "side",
     "workbench.sideBar.location": "left",
     "workbench.preferredHighContrastColorTheme": "Base 9",
-    "editor.tabSize": 1
+    "editor.tabSize": 1,
+    "autoOpenPreviewPanel.openPreviewToSide": true,
+    "editor.cursorStyle": "block",
+    "editor.renderWhitespace": "all",
+    "editor.fontSize": 12,
+    "editor.fontFamily": "'DM Mono', monospace",
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true
 }

@@ -1,14 +1,2 @@
-
-tasks:
-  - init: npm install
-
-
-
-vscode:
-  extensions:
-    - base9-theme.base9-vscodeour needs (see https://www.gitpod.io/docs/introduction/learn-gitpod/gitpod-yaml)
-    - base9-theme.base9-vscode# and commit this file to your remote git repository to share the goodness with others.
-# Learn more from ready-to-use templates: https://www.gitpod.io/docs/introduction/getting-started/quickstart
-tasks:
-  - init: npm install
-
+image:
+	file: .gitpod.dockerfile
