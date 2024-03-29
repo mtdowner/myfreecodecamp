@@ -6,12 +6,6 @@ In this JavaScript Algorithm and Data Structures Certification, you'll learn the
 
 You'll also learn about Object Oriented Programming (OOP), Functional Programming, algorithmic thinking, how to work with local storage, and how to fetch data using an API.
 
-> **Note**: Some browser extensions, such as ad-blockers and script-blockers can interfere with the tests. If you face issues, we recommend disabling extensions that modify or block the content of pages while taking the course.
-
-> This certification is currently in beta. Please consider donating to support the completion of its development.
->
-> [Donate Now](https://www.freecodecamp.org/donate)
-
 ---
 
 ## Courses
@@ -30,7 +24,7 @@ In this practice project, you'll learn fundamental programming concepts in JavaS
 
 **Certification Project**
 
-## Build a Palindrome Checker ProjectCertification Project
+## Build a Palindrome Checker Project Certification Project
 
 This is one of the required projects to earn your certification.
 
@@ -44,7 +38,7 @@ For this project, you'll build an application that checks whether a given word i
 
 **Certification Project**
 
-## Build a Roman Numeral Converter ProjectCertification Project
+## Build a Roman Numeral Converter Project Certification Project
 
 This is one of the required projects to claim your certification.
 
@@ -60,7 +54,7 @@ For this project, you'll build an application that converts integers to Roman nu
 
 **Certification Project**
 
-## Build a Telephone Number Validator ProjectCertification Project
+## Build a Telephone Number Validator Project Certification Project
 
 This is one of the required projects to claim your certification.
 
@@ -74,7 +68,7 @@ For this project, you'll build an application that checks if a number is a valid
 
 **Certification Project**
 
-## Build a Cash Register ProjectCertification Project
+## Build a Cash Register Project Certification Project
 
 This is one of the required projects to earn your certification.
 
@@ -100,18 +94,15 @@ For this project, you will build a Pokémon search app.
 
 ---
 
-
-
 Earn free verified certifications with freeCodeCamp's core curriculum:
+
 Learn English for Developers:
+
 Earn free professional certifications:
+
 Prepare for the developer interview job search:
+
 Explore our Legacy Curriculum:
-freeCodeCamp is a donor-supported tax-exempt 501(c)(3) charitable organization (United States Federal Tax Identification Number: 82-0779546).
-
-Our mission: to help people learn to code for free. We accomplish this by creating thousands of videos, articles, and interactive coding lessons - all freely available to the public.
-
-Donations to freeCodeCamp go toward our education initiatives, and help pay for servers, services, and staff.
 
 Binary Search in C++
 Binary Search in Java

@@ -20,6 +20,7 @@ Translates an element on the 2D plane.
 Translates an element in 3D space.
 
 <h2>Rotation functions</h2>
+
 <span class="code">rotateX()</span>
 Rotates an element around the horizontal axis.
 
@@ -71,21 +72,21 @@ Describes a homogeneous 2D transformation matrix.
 <span class="code">matrix3d()</span>
 Describes a 3D transformation as a 4×4 homogeneous matrix.
 
-Perspective functions
+<h2>Perspective functions</h2>
 
 <span class="code">perspective()</span>
 Sets the distance between the user and the z=0 plane.
 
-Math functions
+<h2>Math functions</h2>
 
 The math functions allow CSS numeric values to be written as mathematical expressions.
 
-Basic arithmetic
+<h2>Basic arithmetic</h2>
 
 <span class="code">calc()</span>
 Performs basic arithmetic calculations on numerical values.
 
-Comparison functions
+<h2>Comparison functions</h2>
 
 <span class="code">min()</span>
 Calculates the smallest of a list of values.
@@ -96,7 +97,7 @@ Calculates the largest of a list of values.
 <span class="code">clamp()</span>
 Calculates the central of a minimum, central, and maximum values.
 
-Trigonometric functions
+<h2>Trigonometric function</h2>
 
 <span class="code">sin()</span>
 Calculates the trigonometric sine of a number.
@@ -119,7 +120,7 @@ Calculates the trigonometric inverse tangent of a number.
 <span class="code">atan2()</span>
 Calculates the trigonometric inverse tangent of two-numbers in a plane.
 
-Exponential functions
+<h2>Exponential functions</h2>
 
 <span class="code">pow()</span>
 Calculates the base raised to the power of a number.
@@ -136,7 +137,7 @@ Calculates the logarithm of a number.
 <span class="code">exp()</span>
 Calculates e raised to the power of a number.
 
-Filter functions
+<h2>Filter functions</h2>
 
 The &lt;<filter-function>&gt; CSS data type represents a graphical effect that can change the appearance of an input image. It is used in the filter and backdrop-filter properties.
 
@@ -170,7 +171,7 @@ Changes the overall saturation of an image.
 <span class="code">sepia()</span>
 Increases the sepia of an image.
 
-Color functions
+<h2>Color functions</h2>
 
 The &lt;<color>&gt; CSS data type specifies different color representations.
 
@@ -201,11 +202,11 @@ Specifies a particular, specified colorspace rather than the implicit sRGB color
 <span class="code">color-mix()</span>
 Mixes two color values in a given colorspace by a given amount.
 
-Image functions
+<h2>Image functions</h2>
 
 The &lt;<image>&gt; CSS data type provides graphical representation of images or gradients.
 
-Gradient functions
+<h2>Gradient functions</h2>
 
 <span class="code">linear-gradient()</span>
 Linear gradients transition colors progressively along an imaginary line.
@@ -225,7 +226,7 @@ Repeats the color stops infinitely in all directions so as to cover its entire c
 <span class="code">repeating-conic-gradient()</span>
 Repeats the color stops infinitely in all directions so as to cover its entire container.
 
-Image functions
+<h2>Image functions</h2>
 
 <span class="code">image-set()</span>
 Picks the most appropriate CSS image from a given set, primarily for high pixel density screens.
@@ -236,7 +237,7 @@ Blends two or more images at a defined transparency.
 <span class="code">paint()</span>
 Defines an &lt;<image>&gt; value generated with a PaintWorklet.
 
-Counter functions
+<h2>Counter functions</h2>
 
 CSS counter functions are generally used with the content property, although in theory, they may be used wherever a &lt;<string>&gt; is supported.
 
@@ -249,7 +250,7 @@ Enables nested counters, returning a concatenated string representing the curren
 <span class="code">symbols()</span>
 Defines the counter styles inline, directly as the value of a property.
 
-Shape functions
+<h2>Shape functions</h2>
 
 The &lt;<basic-shape>&gt; CSS data type represents a graphical shape. It is used in the clip-path, offset-path, and shape-outside properties.
 
@@ -268,7 +269,7 @@ Defines a polygon shape.
 <span class="code">path()</span>
 Accepts an SVG path string to enable a shape to be drawn.
 
-Reference functions
+<h2>Reference functions</h2>
 
 The following functions are used as a value of properties to reference a value defined elsewhere.
 
@@ -284,7 +285,7 @@ Uses a file from the specified URL.
 <span class="code">var()</span>
 Uses the custom property value instead of any part of a value of another property.
 
-Grid functions
+<h2>Grid functions</h2>
 
 The following functions are used to define a CSS Grid.
 
@@ -297,7 +298,7 @@ Defines a size range greater-than or equal-to min and less-than or equal-to max.
 <span class="code">repeat()</span>
 Represents a repeated fragment of the track list, allowing a large number of columns or rows that exhibit a recurring pattern.
 
-Font functions
+<h2>Font functions</h2>
 
 CSS font functions are used with the </span>font-variant-alternates</span> property to control the use of alternate glyphs.
 
@@ -305,10 +306,10 @@ CSS font functions are used with the </span>font-variant-alternates</span> prope
 Enables stylistic alternates for individual characters. The parameter is a font-specific name mapped to a number. It corresponds to the OpenType value salt, like salt 2.
 
 <span class="code">styleset()</span>
-Enables stylistic alternatives for sets of characters. The parameter is a font-specific name mapped to a number. It corresponds to the OpenType value ssXY, such as ss02.
+Enables stylistic alternatives for sets of characters. The parameter is a font-specific name mapped to a number. It corresponds to the OpenType value `ssXY`, such as `ss02`.
 
 <span class="code">character-variant()</span>
-Enables specific stylistic alternatives for characters. It is similar to styleset(), but doesn't create coherent glyphs for a set of characters; individual characters will have independent and not necessarily coherent styles. The parameter is a font-specific name mapped to a number. It corresponds to the OpenType value cvXY, such as cv02.
+Enables specific stylistic alternatives for characters. It is similar to `styleset()`, but doesn't create coherent glyphs for a set of characters; individual characters will have independent and not necessarily coherent styles. The parameter is a font-specific name mapped to a number. It corresponds to the OpenType value `cvXY`, such as `cv02`.
 
 <span class="code">swash()</span>
 Enables swash glyphs. The parameter is a font-specific name mapped to a number. It corresponds to the OpenType values swsh and cswh, such as swsh 2 and cswh 2.
@@ -319,7 +320,7 @@ Enables ornaments such as fleurons and other dingbat glyphs. The parameter is a 
 <span class="code">annotation()</span>
 Enables annotations such as circled digits or inverted characters. The parameter is a font-specific name mapped to a number. It corresponds to the OpenType value nalt, such as nalt 2.
 
-Easing functions
+<h2>Easing functions</h2>
 
 The following functions are used as a value in transition and animation properties.
 
@@ -329,9 +330,9 @@ Easing function that defines a cubic Bézier curve.
 <span class="code">steps()</span>
 Iteration along a specified number of stops along the transition, displaying each stop for equal lengths of time.
 
-Animation functions
+<h2>Animation functions</h2>
 
-The following functions are used as a value of different animation-timeline properties. See animation-timeline for more details about these.
+The following functions are used as a value of different animation-timeline properties.
 
 <span class="code">scroll()</span>
 Sets the animation-timeline of an element to an anonymous scroll progress timeline.

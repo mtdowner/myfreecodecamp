@@ -49,7 +49,7 @@ Element           | Description
 `<kbd>`| keyboard input often with CTRL SHIFT or ALT
 `<label>`| label or brief description before input elements
 `<legend>`| caption for `<fieldset>`
-`<li>`| list item used in `<ol>` and `<ul>` elements
+`<li>`| list item to used in `<ol>` and `<ul>` elements
 `<link>`| link to an external source
 `<main>`| a container for the main content of the page
 `<map>`| a client-side image map

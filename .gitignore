@@ -1,10 +1,8 @@
 .vscode
 .vscode/*
-./node_modules
+node_modules
 .gitpod.dockerfile
 .gitpod.yml
 package-lock.json
 package.js
 settings.json
-
-
