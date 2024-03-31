@@ -1,6 +1,9 @@
-<a>Creates a link to another page or to a location in the current page.
-<abbr>Indicates an acronym or abbreviation of a longer word or phrase.
-<acronym>Creates text that will be displayed when hovered over.
+<a>
+  link to another page or to a location in the current page.
+<abbr>
+acronym or abbreviation of a longer word or phrase.
+<acronym>
+ Creates text that will be displayed when hovered over.
 <applet>
 Used to embed Java applets in HTML documents but is no longer supported.
 <audio>
