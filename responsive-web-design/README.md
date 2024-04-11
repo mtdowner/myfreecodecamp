@@ -6,20 +6,18 @@ First, you'll build a cat photo app to learn the basics of HTML and CSS. Later, 
 
 Finally, you'll learn how to make webpages that respond to different screen sizes by building a photo gallery with Flexbox, and a magazine article layout with CSS Grid.
 
-> Note: Some browser extensions, such as ad-blockers and dark mode extensions can interfere with the tests. If you face issues, we recommend disabling extensions that modify the content or layout of pages, while taking the course.
+> **Note**: Some browser extensions, such as ad-blockers and dark mode extensions can interfere with the tests. If you face issues, we recommend disabling extensions that modify the content or layout of pages, while taking the course.
 
 ## Courses
 
 - [x] Learn HTML by Building a Cat Photo App
 - [x] Learn Basic CSS by Building a Cafe Menu
-
-Learn CSS Colors by Building a Set of Colored Markers
-
-Learn HTML Forms by Building a Registration Form
+- [x] Learn CSS Colors by Building a Set of Colored Markers
+- [x] Learn HTML Forms by Building a Registration Form
 
 **Certification Project**
 
-Survey Form
+- [x] Survey Form
 
 This is one of the required projects to earn your certification.
 
@@ -28,16 +26,13 @@ For this project, you will build a survey form to collect data from your users.
 ---
 
 Learn the CSS Box Model by Building a Rothko Painting
-
 Learn CSS Flexbox by Building a Photo Gallery
-
 Learn Typography by Building a Nutrition Label
-
-### Learn Accessibility by Building a Quiz, Not started
+Learn Accessibility by Building a Quiz
 
 **Certification Project**
 
-## Tribute Page
+Tribute Page
 
 This is one of the required projects to earn your certification.
 
@@ -45,11 +40,9 @@ For this project, you will build a tribute page for a subject of your choosing, 
 
 ---
 
-### Learn More About CSS Pseudo Selectors by Building A Balance Sheet, Not started
-
-### Learn Intermediate CSS by Building a Cat Painting, Not started
-
-### Learn Responsive Web Design by Building a Piano, Not started
+### Learn More About CSS Pseudo Selectors by Building A Balance Sheet
+### Learn Intermediate CSS by Building a Cat Painting
+### Learn Responsive Web Design by Building a Piano
 
 **Certification Project**
 
@@ -61,8 +54,7 @@ For this project, you will build a technical documentation page to serve as inst
 
 ---
 
-### Learn CSS Variables by Building a City Skyline, Not started
-
+### Learn CSS Variables by Building a City Skyline
 ### Learn CSS Grid by Building a Magazine
 
 **Certification Project**
@@ -75,9 +67,8 @@ For this project, you will build a product landing page to market a product of y
 
 ---
 
-### Learn CSS Animation by Building a Ferris Wheel, Not started
-
-### Learn CSS Transforms by Building a Penguin, Not started
+### Learn CSS Animation by Building a Ferris Wheel
+### Learn CSS Transforms by Building a Penguin
 
 **Certification Project**
 

@@ -1,0 +1,10 @@
+.vscode
+node_modules
+.node_modules
+references
+.gitpod.dockerfile
+.gitpod.yml
+package-lock.json
+package.js
+settings.json
+vscode

@@ -1,9 +1,0 @@
-.vscode
-.vscode/*
-node_modules
-references
-.gitpod.dockerfile
-.gitpod.yml
-package-lock.json
-package.js
-settings.json
