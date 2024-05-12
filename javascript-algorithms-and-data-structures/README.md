@@ -10,7 +10,19 @@ You'll also learn about Object Oriented Programming (OOP), Functional Programmin
 
 ## Courses
 
-### Learn Basic JavaScript by Building a Role Playing Game, 35% Completed
+### Learn Introductory JavaScript by Building a Pyramid Generator, 33% Completed
+
+JavaScript is a powerful scripting language that you can use to make web pages interactive. It's one of the core technologies of the web, along with HTML and CSS. All modern browsers support JavaScript.
+
+In this practice project, you'll learn fundamental programming concepts in JavaScript by coding your own Pyramid Generator. You'll learn how to work with arrays, strings, functions, loops, if/else statements, and more.
+
+### Review JavaScript Fundamentals by Building a Gradebook App, Not started
+
+In this mini project, you will get to review JavaScript fundamentals like functions, variables, conditionals and more by building a gradebook app.
+
+This will give you an opportunity to solve small problems and get a better understanding of the basics.
+
+### Learn Basic JavaScript by Building a Role Playing Game, Completed
 
 JavaScript is a powerful scripting language that you can use to make web pages interactive. It's one of the core technologies of the web, along with HTML and CSS. All modern browsers support JavaScript.
 
@@ -54,7 +66,7 @@ For this project, you'll build an application that converts integers to Roman nu
 
 **Certification Project**
 
-### Build a Telephone Number Validator Project Certification Project
+### Build a Telephone Number Validator Certification Project
 
 This is one of the required projects to claim your certification.
 
