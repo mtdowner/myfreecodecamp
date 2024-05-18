@@ -1,4 +1,4 @@
-# my freecodecamp projects
+# My freeCodeCamp certification and curriculum progress.
 
 [Netlify](https://missys-fcc-projects.netlify.app)
 
